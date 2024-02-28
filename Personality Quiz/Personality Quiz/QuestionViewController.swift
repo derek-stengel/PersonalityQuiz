@@ -9,6 +9,9 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    
     @IBOutlet weak var rangedStackView: UIStackView!
     @IBOutlet weak var rangedLabel1: UILabel!
     @IBOutlet weak var rangedLabel2: UILabel!
